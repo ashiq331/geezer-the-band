@@ -255,8 +255,7 @@ a:hover {
 
 
 /* ----------------- Venues -------------------- */
-.venues__content,
-.contact__content
+.venues__content
 {
   background-color: var(--color-blue1);
   padding-top: 3rem;
@@ -274,4 +273,70 @@ a:hover {
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
+}
+
+
+/* ----------------- Videos -------------------- */
+.video__links 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+
+
+/* ----------------- Form -------------------- */
+.contact__content
+{
+  background-color: var(--color-blue1);
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+form 
+{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form__items
+{
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  justify-content: center;
+  gap: px;
+  width: 620px;
+}
+
+.form__items label
+{
+  color: var(--color-white);
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.form__items input, 
+.form__items textarea
+{
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 12px;
+}
+
+.submit_btn
+{
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 14px;
+  background-color: var(--color-black1);
+  color: var(--color-white);
+  font-size: 20px;
+  font-weight: 400;
 }
