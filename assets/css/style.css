@@ -82,10 +82,13 @@ a:hover {
   background-color: var(--color-blue1);
   color: var(--color-white);
   padding: 2px;
+
 }
 
 .header_top .email {
   text-align: end;
+  font-size: 17px;
+  font-weight: 400;
 }
 
 /* ----------------- Header ---------------- */
@@ -159,8 +162,7 @@ a:hover {
 }
 
 .home__content .buttons,
-.main__content .buttons
-{
+.main__content .buttons {
   margin: 0 auto;
   padding-top: 20px;
   display: flex;
@@ -169,7 +171,7 @@ a:hover {
 }
 
 .home__content .buttons .band__button,
-.main__content .buttons .band__button{
+.main__content .buttons .band__button {
   background-color: var(--color-blue1);
   font-size: 20px;
   padding: 12px 24px;
@@ -229,41 +231,35 @@ a:hover {
   color: var(--color-white);
 }
 
-.main__content h2
-{
-    font-size: 34px;
-    font-weight: 700;
-    text-align: center;
-    width: 70%;
-    text-shadow: 4px 2px 3px #00000090;
+.main__content h2 {
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  width: 70%;
+  text-shadow: 4px 2px 3px #00000090;
 }
 
-.main__content .article
-{
-    font-size: 22px;
-    font-weight: 400;
-    color: var(--color-white);
-    width: 70%;
-    text-align: center;
-    line-height: 1.7;
+.main__content .article {
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--color-white);
+  width: 70%;
+  text-align: center;
+  line-height: 1.7;
 }
 
-.main__content .video__popup img
-{
-    width: 760px;
+.main__content .video__popup img {
+  width: 760px;
 }
-
 
 /* ----------------- Venues -------------------- */
-.venues__content
-{
+.venues__content {
   background-color: var(--color-blue1);
   padding-top: 3rem;
   padding-bottom: 10rem;
 }
 
-.venues__content .main__content .videos__button
-{
+.venues__content .main__content .videos__button {
   background-color: var(--color-black1);
   color: var(--color-white);
   font-size: 20px;
@@ -275,10 +271,19 @@ a:hover {
   -o-border-radius: 50px;
 }
 
-
 /* ----------------- Videos -------------------- */
-.video__links 
+.videos__content .main__content .article
 {
+  width: 55%;
+}
+
+.videos__content .main__content .article a 
+{
+  color: var(--color-blue1);
+  text-decoration: underline;
+}
+
+.video__links {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -286,25 +291,25 @@ a:hover {
   gap: 2.5rem;
 }
 
-
-
 /* ----------------- Form -------------------- */
-.contact__content
-{
+.contact__content {
   background-color: var(--color-blue1);
   padding-top: 3rem;
   padding-bottom: 4rem;
 }
 
-form 
+.contact__content .main__content .article
 {
+  width: 55%;
+}
+
+form {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.form__items
-{
+.form__items {
   display: flex;
   flex-direction: column;
   align-items: self-start;
@@ -313,24 +318,21 @@ form
   width: 620px;
 }
 
-.form__items label
-{
+.form__items label {
   color: var(--color-white);
   font-size: 17px;
   font-weight: 400;
 }
 
-.form__items input, 
-.form__items textarea
-{
+.form__items input,
+.form__items textarea {
   outline: none;
   border: none;
   width: 100%;
   padding: 12px;
 }
 
-.submit_btn
-{
+.submit_btn {
   width: 100%;
   outline: none;
   border: none;
@@ -339,4 +341,57 @@ form
   color: var(--color-white);
   font-size: 20px;
   font-weight: 400;
+}
+
+/* --------------------- Footer ------------------ */
+.footer {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.footer__content .copyright_text {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.footer__content .agency_name {
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--color-blue1);
+  text-decoration: underline;
+}
+
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.567);
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  opacity: 0.7;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+
+#myBtn:hover{
+  opacity: 1;
+  background-color: #000000;
 }
