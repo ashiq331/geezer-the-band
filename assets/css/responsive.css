@@ -65,6 +65,19 @@
 }
 
 @media screen and (max-width: 600px) {
+  .main_header .nav_items a {
+    font-size: 15px;
+  }
+
+  .home__content .heading h1 {
+    font-size: 32px;
+  }
+
+  .home__content .buttons,
+  .main__content .buttons {
+    font-size: 19px;
+  }
+
   iframe {
     width: 450px;
   }
@@ -78,6 +91,28 @@
   .home__content .buttons .contact__button,
   .main__content .buttons .contact__button {
     width: max-content;
+  }
+
+  .main_header .nav_items a {
+    font-size: 18px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+  }
+
+  .main__content h2 {
+    width: 95%;
+  }
+
+  .main__content .article {
+    width: 95%;
+  }
+
+  .videos__content .main__content .article,
+  .contact__content .main__content .article {
+    width: 95%;
   }
 }
 
