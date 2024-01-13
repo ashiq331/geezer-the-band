@@ -357,6 +357,9 @@ form {
   text-decoration: underline;
 }
 
+
+/* ---------- Go to Top -------------- */
+
 #myBtn {
   display: none;
   position: fixed;

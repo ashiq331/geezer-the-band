@@ -1,3 +1,5 @@
+// Scroll to top
+
 let topbutton = document.getElementById("myBtn");
 
 window.onscroll = function () {
