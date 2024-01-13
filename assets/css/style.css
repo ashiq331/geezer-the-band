@@ -82,7 +82,6 @@ a:hover {
   background-color: var(--color-blue1);
   color: var(--color-white);
   padding: 2px;
-
 }
 
 .header_top .email {
@@ -272,13 +271,11 @@ a:hover {
 }
 
 /* ----------------- Videos -------------------- */
-.videos__content .main__content .article
-{
+.videos__content .main__content .article {
   width: 55%;
 }
 
-.videos__content .main__content .article a 
-{
+.videos__content .main__content .article a {
   color: var(--color-blue1);
   text-decoration: underline;
 }
@@ -298,8 +295,7 @@ a:hover {
   padding-bottom: 4rem;
 }
 
-.contact__content .main__content .article
-{
+.contact__content .main__content .article {
   width: 55%;
 }
 
@@ -361,8 +357,6 @@ form {
   text-decoration: underline;
 }
 
-
-
 #myBtn {
   display: none;
   position: fixed;
@@ -391,7 +385,7 @@ form {
   -o-transition: all 0.4s ease;
 }
 
-#myBtn:hover{
+#myBtn:hover {
   opacity: 1;
   background-color: #000000;
 }
