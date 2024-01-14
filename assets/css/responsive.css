@@ -140,7 +140,29 @@
 }
 
 @media screen and (max-width: 420px) {
+
+  .home {
+    height: 60vh;
+    background-attachment: scroll;
+  }
+
+  .home__content {
+    height: 50vh;
+  }
+
+  .home__content .heading h1,
+  .main__content h2
+  {
+   font-size: 27px;
+   line-height: 1.3;
+  }
+  .home__content .buttons,
+  .main__content .buttons {
+    font-size: 14px;
+  }
+
   iframe {
-    width: 380px;
+    width: 100%;
+    height: 180px;
   }
 }
