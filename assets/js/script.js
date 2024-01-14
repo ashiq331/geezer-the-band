@@ -1,5 +1,10 @@
-// Scroll to top
+/* magnificPopup video view */
+$('.popup-video').magnificPopup({
+	type: 'iframe'
+});
 
+
+// Scroll to top
 let topbutton = document.getElementById("myBtn");
 
 window.onscroll = function () {
