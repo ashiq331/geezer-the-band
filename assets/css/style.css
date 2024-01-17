@@ -133,7 +133,7 @@ a:hover {
 
 /* ---------------------- Home ---------------------- */
 .home {
-  background: url("/assets/images/Geezer-the-Band-for-hire-2.jpg");
+  background: url("../images/Geezer-the-Band-for-hire-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -249,7 +249,7 @@ a:hover {
 
 .youtube_popup_btn
 {
-  background: url("/assets/images/About-Geezer-The-Band-in-Springfield-MO.jpg");
+  background: url("../images/About-Geezer-The-Band-in-Springfield-MO.jpg");
   background-size: cover;
   background-position: center;
   object-fit: cover;
